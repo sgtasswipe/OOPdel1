@@ -3,8 +3,8 @@ package MyKids;
 import java.time.LocalDateTime;
 
 public class Kid {
-    int birthYear;
-    String name;
+    int birthYear;   // tilstand
+    String name;  // tilstand
 
     @Override
     public String toString() {

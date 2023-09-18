@@ -6,8 +6,8 @@ public class MyKids {
     }
 
     private void run() {
-        Kid kid1 = new Kid();
-        kid1.birthYear=2000;
+        Kid kid1 = new Kid(); // tilstand er den samlet sum af attributerne ( variablerne).
+        kid1.birthYear=2000; // her ændres tilstanden i kid1. birthyear til 2000 ( vil altid være 0 når der ikke er angivet værdi
         kid1.name= "Jack";
         Kid kid2 = new Kid();
         kid2.birthYear = 2013;
